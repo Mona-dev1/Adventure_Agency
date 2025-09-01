@@ -11,22 +11,22 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="css/style.css" />
+   
   </head>
   <body>
-    <header>
+    <header id="header">
       <nav>
         <h2>Adventure Agency</h2>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About </a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="services.html">Gallery</a></li>
-          <li><a href="services.html">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#about">About </a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <img src="./img/b1.jpg" alt="bkg img" />
-
       <div class="border"></div>
       <div class="whight">
         <h3>Thrill & Joy</h3>
@@ -34,54 +34,99 @@
       </div>
     </header>
     <main>
-      <div class="cards">
-        <img src="./img/ab1.jpg" alt="" />
-        <img src="./img/ab2.jpg" alt="" />
-        <section>
-          <h2>About Us</h2>
-          <h1>Some Words About Us</h1>
-          <p>
-            Dedicato connects to the community that has this sense that this is
-            an opportunity, and that is what we do best. To bring members of the
-            community into a shared experience, that is what connects and
-            creates us as a team.
-          </p>
-        </section>
-        <img src="./img/ab3.jpg" alt="" />
-      </div>
+      <section id="about">
+        <div class="about-container">
+         
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="./img/ab1.jpg" alt="Adventure" />
+              </div>
+              <div class="card-back">
+                <h2>About Us</h2>
+                <h1>Some Words About Us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore eaque ipsum illum corrupti labore aut deleniti beatae neque facere, dolor quia? Perspiciatis, esse eaque atque quas molestiae, vel praesentium quam blanditiis quae tempore accusantium quis?</p>
+              </div>
+            </div>
+          </div>
+
+         
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="./img/ab2.jpg" alt="Climbing" />
+              </div>
+              <div class="card-back">
+                <h2>About Us</h2>
+                <h1>Some Words About Us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quasi accusamus, numquam in ea earum labore perspiciatis, officia laboriosam ipsam iure distinctio, eaque sit repudiandae eos architecto autem vitae aliquid nesciunt vel commodi. Non, excepturi.
+                </p>
+              </div>
+            </div>
+          </div>
+
+         
+          <div class="about-text">
+            <h2>About Us</h2>
+            <h1>Some Words About Us</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem deleniti velit laboriosam excepturi doloribus sed dolor at. Accusantium quod dignissimos obcaecati fugiat odit nulla aspernatur eum saepe voluptate, laboriosam, quis expedita repudiandae aliquam vitae illum?
+            </p>
+          </div>
+
+        
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="./img/ab3.jpg" alt="Zipline" />
+              </div>
+              <div class="card-back">
+                <h2>About Us</h2>
+                <h1>Some Words About Us</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ex debitis blanditiis vel deserunt repudiandae delectus minus facere molestiae exercitationem asperiores aliquam tempora, aspernatur corporis? Autem iusto reiciendis ducimus saepe ea nesciunt fugiat nisi facere.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <div class="icons">
         <div class="icon-title">
-          <img src="./img/b3.jpg" alt="bkg img" />
           <h3>Find A Adventure</h3>
           <h2>Adventure Tour Type</h2>
         </div>
-        <div class="icon">
-          <i class="fa-solid fa-ship"></i>
-          <h2>Cruises</h2>
-        </div>
-        <div class="icon">
-          <i class="fa-solid fa-bag-shopping"></i>
-          <h2>Hiking</h2>
-        </div>
-        <div class="icon">
-          <i class="fa-solid fa-paw"></i>
-          <h2>Wild life</h2>
-        </div>
-        <div class="icon">
-          <i class="fa-solid fa-fire-flame-curved"></i>
-          <h2>Fire Camp</h2>
-        </div>
-        <div class="icon">
-          <i class="fa-solid fa-tent"></i>
-          <h2>Camp</h2>
-        </div>
-        <div class="icon">
-          <i class="fa-solid fa-paper-plane"></i>
-          <h2>Air Ride</h2>
+
+        <div class="icons-grid">
+          <div class="icon">
+            <i class="fa-solid fa-ship"></i>
+            <h2>Cruises</h2>
+          </div>
+          <div class="icon">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <h2>Hiking</h2>
+          </div>
+          <div class="icon">
+            <i class="fa-solid fa-paw"></i>
+            <h2>Wild life</h2>
+          </div>
+          <div class="icon">
+            <i class="fa-solid fa-fire-flame-curved"></i>
+            <h2>Fire Camp</h2>
+          </div>
+          <div class="icon">
+            <i class="fa-solid fa-tent"></i>
+            <h2>Camp</h2>
+          </div>
+          <div class="icon">
+            <i class="fa-solid fa-paper-plane"></i>
+            <h2>Air Ride</h2>
+          </div>
         </div>
       </div>
 
-      <div class="services">
+      <div class="services" id="services">
         <div class="text">
           <h3>Services</h3>
           <h2>Adventure Offer</h2>
@@ -144,7 +189,7 @@
       </div>
       <div class="parasho_section">
         <div class="parasho">
-          <img src="" alt="" />
+          <img src="./img/ab4.jpg" alt="" />
         </div>
         <div class="parasho_para">
           <h2>Your Special Tour Today</h2>
@@ -155,26 +200,38 @@
           </p>
         </div>
       </div>
-      <div class="gallery">
+      <div class="gallery" id="gallery">
         <div class="text">
           <h3>Gallery</h3>
           <h2>Adventure Portfolio</h2>
         </div>
+
         <div class="images">
-          <div class="col">
-            <img src="./img/g1.jpg" alt="" />
-            <img src="./img/g2.jpg" alt="" />
-            <img src="./img/g3.jpg" alt="" />
+         
+          <div class="col-left">
+            <div class="top">
+              <img src="./img/g4.jpg" alt="" />
+              <img src="./img/g5.jpg" alt="" />
+            </div>
+            <div class="bottom">
+              <img src="./img/ab4.jpg" alt="" />
+            </div>
           </div>
-          <div class="col">
-            <img src="./img/g4.jpg" alt="" />
-            <img src="./img/g5.jpg" alt="" />
-            <img src="./img/g6.jpg" alt="" />
+
+          
+          <div class="col-right">
+            <div class="top">
+              <img src="./img/g6.jpg" alt="" />
+            </div>
+            <div class="bottom">
+              <img src="./img/g2.jpg" alt="" />
+              <img src="./img/g3.jpg" alt="" />
+            </div>
           </div>
         </div>
       </div>
-      <div class="diving">
-        <div class="gray_bkground">
+      <div class="diving" id="blog">
+        <div class="gray_bkground no-img">
           <p>Juky 2020/7 Comments 5</p>
           <h3>Lorem, ipsum dolor.</h3>
           <p>
@@ -184,8 +241,8 @@
           </p>
           <button>Read More</button>
         </div>
-        <!-- bak img -->
-        <div class="gray_bkground">
+        
+        <div class="gray_bkground img1">
           <p>Juky 2020/7 Comments 5</p>
           <h3>Lorem, ipsum dolor.</h3>
           <p>
@@ -195,9 +252,9 @@
           </p>
           <button>Read More</button>
         </div>
-        <!-- bak img -->
+       
 
-        <div class="gray_bkground">
+        <div class="gray_bkground img2">
           <p>Juky 2020/7 Comments 5</p>
           <h3>Lorem, ipsum dolor.</h3>
           <p>
@@ -207,7 +264,7 @@
           </p>
           <button>Read More</button>
         </div>
-        <div class="gray_bkground">
+        <div class="gray_bkground no-img">
           <p>Juky 2020/7 Comments 5</p>
           <h3>Lorem, ipsum dolor.</h3>
           <p>
@@ -232,8 +289,10 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
                 quam, quod.
               </p>
-              <button>Book Now</button>
-              <span>$250.00</span>
+              <div>
+                <button>Book Now</button>
+                <span>$250.00</span>
+              </div>
             </div>
           </div>
           <div class="offer">
@@ -246,8 +305,10 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
                 quam, quod.
               </p>
-              <button>Book Now</button>
-              <span>$250.00</span>
+              <div>
+                <button>Book Now</button>
+                <span>$250.00</span>
+              </div>
             </div>
           </div>
           <div class="offer">
@@ -260,8 +321,10 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
                 quam, quod.
               </p>
-              <button>Book Now</button>
-              <span>$250.00</span>
+              <div>
+                <button>Book Now</button>
+                <span>$250.00</span>
+              </div>
             </div>
           </div>
           <div class="offer">
@@ -274,15 +337,17 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
                 quam, quod.
               </p>
-              <button>Book Now</button>
-              <span>$250.00</span>
+              <div>
+                <button>Book Now</button>
+                <span>$250.00</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
       <div class="subscribe">
-        <!-- bkground img -->
+        
         <h3>subscribe</h3>
         <h2>Join The Newsletter</h2>
         <div class="mail">
@@ -290,50 +355,71 @@
           <button>subscribe</button>
         </div>
       </div>
-      <div class="contact">
+      <div class="contact" id="contact">
         <h3>contact</h3>
         <h2>Get in Touch</h2>
-        <div class="right"><iframe src="" frameborder="0"></iframe></div>
-        <div class="left">
-        
-          <form action="">
-            <input type="text" placeholder="First Name" />
-            <input type="text" placeholder="Last Name" />
-            <input type="number" placeholder="Phone" />
 
+        <div class="contact-container">
+          <!-- Left: Map -->
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3451.878410315245!2d31.235711315117753!3d30.044419481883846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDAyJzQwLjAiTiAzMcKwMTQnMDguNiJF!5e0!3m2!1sen!2seg!4v1638200000000!5m2!1sen!2seg"
+              width="100%"
+              height="100%"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
 
-            <input type="email" placeholder="Your Email" />
-            <input type="text" placeholder="massage" />
-            <button>Send </button>
-          </form>
+         
+          <div class="form">
+            <form action="">
+              <div class="grid-two">
+                <input type="text" placeholder="First Name" />
+                <input type="text" placeholder="Last Name" />
+              </div>
+
+              <div class="grid-two">
+                <input type="number" placeholder="Phone" />
+                <input type="email" placeholder="Your Email" />
+              </div>
+
+              <div class="grid-one">
+                <textarea placeholder="Message"></textarea>
+              </div>
+
+              <button>Send</button>
+            </form>
+          </div>
+        </div>
       </div>
-      </div>
+
       <footer>
-        <div class="data">
-          <p><h2>Adress: </h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum? </p>
-          <p> Phone: +0123 4567 89</p>
-          <p>Email: info@gmail.com</p>
+        <div class="top">
+          <div class="data">
+            <p>
+              <span>Adress</span> : Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. Ipsum?
+            </p>
+            <p><span>Phone</span> : +0123 4567 89</p>
+            <p><span>Email</span> : info@gmail.com</p>
+          </div>
+          <div class="info_icon">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
 
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
 
+          <span
+            ><a href="#header"><i class="fa-solid fa-arrow-up" style="color: white;"></i></a
+          ></span>
         </div>
-        <div class="info_icon">
-          <i class="fa-brands fa-facebook-f"></i>
-          <i class="fa-brands fa-twitter"></i>
-          
-          <i class="fa-brands fa-linkedin-in"></i>
-        
-        </div>
-
-
-        <span><i class="fa-solid fa-arrow-up"></i></span>
-
-
         <div class="fooot">
           <p>Copyright © 2024 Adventure Agency. All rights reserved.</p>
         </div>
-
       </footer>
-
     </main>
   </body>
 </html>
